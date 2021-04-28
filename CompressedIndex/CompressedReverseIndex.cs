@@ -10,7 +10,7 @@ using System.Linq;
      * It allows to save numbers in more memory-efficient way than using int.
      * Also, instead of saving docId, this index saves interval between docIds.
      * Exaple: if we add 2 words with docIds 50 and 150, encoded 50 and 100 (150-50=100) will be saved.
-     * 
+     *  
      * !!! Works properly only if words with smaller docIds added first.
      */
     class CompressedReverseIndex
