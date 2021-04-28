@@ -4,7 +4,7 @@
     [Serializable] 
     /* Compressed vocabulary class.
      * To compress vocabulary, words are saved in array of strings.
-     * Each of this string contains 4 words.
+     * Each of this string contains BlockLength words.
      * Before each word it`s length is stored in order to split and find words in string.
      * 
      * !!! For proper work, sorted array of words can be added only once.
